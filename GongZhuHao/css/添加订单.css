@@ -1,0 +1,84 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑"; }
+
+.con {
+  padding: 30px 80px 30px 80px; }
+  .con .hh {
+    bottom: 60px;
+    left: 241px;
+    width: 948px;
+    position: absolute; }
+    .con .hh .con2 {
+      position: absolute;
+      bottom: 722px;
+      width: 948px;
+      height: 77px;
+      background: #fff;
+      border-bottom: 1px solid #f3f3f3;
+      float: right; }
+      .con .hh .con2 span {
+        line-height: 77px;
+        margin-left: 30px; }
+    .con .hh .tup {
+      width: 918px;
+      height: 692px;
+      float: right;
+      background: #fff;
+      margin-top: -722px;
+      padding-top: 30px;
+      padding-right: 15px;
+      padding-left: 15px; }
+      .con .hh .tup .ppp {
+        display: inline-block;
+        width: 100px;
+        margin-left: 15px;
+        margin-top: 15px; }
+      .con .hh .tup .xm {
+        margin-top: 20px;
+        width: 120px;
+        height: 40px;
+        margin-right: 30px;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid #B5b5b5;
+        padding-left: 10px; }
+      .con .hh .tup .sj {
+        margin-top: 20px;
+        margin-right: 30px;
+        width: 200px;
+        height: 40px;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid #B5b5b5;
+        padding-left: 10px; }
+      .con .hh .tup .jd {
+        width: 80px;
+        height: 30px;
+        outline: none;
+        border: 1px solid #B5b5b5;
+        border-radius: 5px; }
+      .con .hh .tup textarea {
+        margin-top: 20px;
+        width: 500px;
+        height: 100px; }
+      .con .hh .tup .bz {
+        margin-left: 120px;
+        margin-top: 30px; }
+        .con .hh .tup .bz button:first-child {
+          width: 100px;
+          height: 40px;
+          background: #ff6677;
+          border-radius: 5px;
+          border: 1px solid #ff6677;
+          color: #fff; }
+        .con .hh .tup .bz button:last-child {
+          width: 100px;
+          height: 40px;
+          border-radius: 5px;
+          border: 1px solid #B5b5b5;
+          background: #fff; }
+
+/*# sourceMappingURL=%CC%ED%BC%D3%B6%A9%B5%A5.css.map */

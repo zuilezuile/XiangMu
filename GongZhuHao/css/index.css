@@ -1,0 +1,68 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑"; }
+
+header {
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  position: relative;
+  border-bottom: 1px solid #f7f7f7; }
+  header img:first-child {
+    margin-top: 10px;
+    margin-left: 80px; }
+  header .dl {
+    width: 150px;
+    position: absolute;
+    right: 140px;
+    top: 5px; }
+    header .dl img {
+      position: absolute;
+      right: 70px;
+      top: 0; }
+    header .dl .st1 {
+      position: absolute;
+      right: 0;
+      top: 15px; }
+
+.con {
+  position: relative;
+  padding: 30px 80px 30px 80px; }
+  .con .nav {
+    display: inline-block;
+    height: 775px;
+    background: #fff;
+    padding-top: 25px; }
+    .con .nav ul {
+      height: 775px;
+      background: #fff;
+      list-style-type: none;
+      font-size: 15px; }
+      .con .nav ul li {
+        padding-left: 20px;
+        width: 220px;
+        background: #fff; }
+        .con .nav ul li a {
+          display: inline-block;
+          text-decoration: none;
+          color: black; }
+        .con .nav ul li img {
+          margin-right: 20px; }
+        .con .nav ul li ol {
+          list-style-type: none;
+          margin-top: 10px;
+          display: none; }
+        .con .nav ul li span {
+          margin-right: 70px; }
+        .con .nav ul li .img {
+          margin-bottom: 1px; }
+
+.nav ul li:hover {
+  height: 40px;
+  width: 240px;
+  background: #ff6677;
+  color: #fff; }
+
+/*# sourceMappingURL=index.css.map */

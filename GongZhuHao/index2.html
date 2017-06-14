@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN" ng-app="Myapp">
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/index2.css">
+    <link rel="stylesheet" href="Font-Awesome-3.2.1/css/font-awesome.css">
+</head>
+<body bgcolor="#f3f3f3">
+<header>
+    <img src="images/kepian/客片管理_03.jpg" alt="">
+    <div class="dl">
+        <img src="images/kepian/客片管理_05.jpg" alt="">
+        <strong class="st1">ALONG</strong>
+    </div>
+</header>
+
+<div class="con">
+    <div class="nav">
+        <h4><img src="font/home.png" alt="">首页</h4>
+        <h3><img src="font/店铺.png" alt="">店铺管理<img src="font/下拉.png" alt="" style="margin-left: 80px;margin-bottom: -3px"></h3>
+        <ul>
+            <li><a ui-sref="shanghuxinxi">商户信息</a></li>
+            <li><a ui-sref="shangchuanzuopin1">上传作品</a></li>
+            <li><a ui-sref="shangchuanzuopin2">套系管理</a></li>
+            <li><a ui-sref="shangjiazuopin">商家作品</a></li>
+            <li><a ui-sref="kepianguanli2">客片管理</a></li>
+        </ul>
+        <h3><img src="font/%20%20问卷.png" alt="">服务管理<img src="font/下拉.png" alt="" style="margin-left: 80px;margin-bottom: -3px"></h3>
+        <ul>
+            <li><a ui-sref="suoyoudingdan">所有订单</a></li>
+            <li><a ui-sref="zhidingpaiqi">制定排期</a></li>
+            <li><a ui-sref="tianjiadingdan">添加订单</a></li>
+            <li><a href="">试衣排期</a></li>
+            <li><a href="">选片排期</a></li>
+            <li><a href="">定稿排期</a></li>
+            <li><a href="">取件排期</a></li>
+            <li><a href="">代取件排期</a></li>
+            <li><a href="">已完成订单</a></li>
+            <li><a ui-sref="yituidan">已退单</a></li>
+            <li><a ui-sref="shujvbeifen">数据备份</a></li>
+        </ul>
+        <h4><img src="font/相机.png" alt=""><a ui-sref="kepianguanli1">客片管理</a></h4>
+        <h3><img src="font/管理.png" alt=""><span>档期管理</span><img src="font/下拉.png" alt="" style="margin-left: 80px;margin-bottom: -3px"></h3>
+        <ul>
+            <li><a ui-sref="dangqiyilan">档期一览</a></li>
+            <li><a ui-sref="dangqimingxi">档期明细</a></li>
+        </ul>
+        <h4><img src="font/分享.png" alt=""><a href="">分享统计</a></h4>
+        <h4><img src="font/人员.png" alt=""><a ui-sref="qiankeguanli">潜客管理</a></h4>
+        <h3><img src="font/设置.png" alt="">系统管理<img src="font/下拉.png" alt="" style="margin-left: 80px;margin-bottom: -3px"></h3>
+        <ul>
+            <li><a ui-sref="yonghuguanli">用户管理</a></li>
+            <li><a ui-sref="yonghuguanli2">部门&人员</a></li>
+            <li><a href="">服务设置</a></li>
+            <li><a href="">订单来源设置</a></li>
+            <li><a href="">分享设置</a></li>
+            <li><a href="">拍摄档期分类</a></li>
+            <li><a href="">个人信息</a></li>
+        </ul>
+    </div>
+
+
+    <div ui-view>
+
+    </div>
+</div>
+</body>
+<script src="js/angular-1.4.6.min.js"></script>
+<script src="js/angular-ui-router.js"></script>
+<script src="router/router.js"></script>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script>
+    $(function () {
+        $('h3').click(function () {
+            $('h3').next().stop().slideUp()
+            $(this).next().stop().slideToggle()
+        })
+
+    })
+</script>
+</html>

@@ -1,0 +1,124 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+}
+.con{
+
+  padding: 30px 80px 30px 80px;
+.hh{
+  bottom: 60px;
+  left: 241px;
+  width: 948px;
+  position: absolute;
+  .con2{
+    position: absolute;
+    bottom: 722px;
+    width: 948px;
+    height: 77px;
+    background: #fff;
+    border-bottom: 1px solid #f3f3f3;
+    float: right;
+    span{
+      line-height: 77px;
+      margin-left: 30px;
+    }
+    input{
+      width: 320px;
+      height: 30px;
+      border-radius: 5px;
+      outline: none;
+      border: 1px solid #f3f3f3;
+      margin-left: 460px;
+      padding-left: 10px;
+    }
+    label{
+      width: 30px;
+      height: 30px;
+      font-size: 15px;
+      border: 1px solid #f3f3f3;
+      display: inline-block;
+      line-height: 30px;
+      border-radius: 0 5px 5px 0;
+      margin-left: -10px;
+      background: #fff;
+    }
+  }
+  .tup{
+    width: 918px;
+    height: 692px;
+    float: right;
+    background: #fff;
+    margin-top: -722px;
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    span{
+      margin-left: 15px;
+      margin-bottom: 30px;
+      display: inline-block;
+      width: 100px;
+      text-align: left;
+      font-size: 14px;
+    }
+    input{
+      width: 300px;
+      height: 35px;
+      border: 1px solid #B5B5B5;
+      outline: none;
+      border-radius: 5px;
+    }
+    select{
+      width: 120px;
+      height: 35px;
+      border: 1px solid #B5B5B5;
+      outline: none;
+      border-radius: 5px;
+    }
+    textarea{
+      width: 500px;
+      height: 80px;
+      border: 1px solid #B5B5B5;
+      outline: none;
+      border-radius: 5px;
+    }
+    .logo{
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      background: #f3f3f3;
+      border: 1px solid #B5B5B5;
+    }
+    .tj{
+      width: 300px;
+      display: inline-block;
+      span{
+        width: 300px;
+        display: inline-block;
+        height: 0;
+        font-size: 12px;
+        margin-bottom: -10px;
+      }
+      button{
+        margin-left: 15px;
+        border: 1px solid #B5B5B5;
+        background: #fff;
+        border-radius: 5px;
+        width: 80px;
+        height: 30px;
+      }
+    }
+
+    button{
+      width: 100px;
+      height: 40px;
+      background: #ff6677;
+      border-radius: 5px;
+      border: 1px solid #ff6677;
+      margin-left: 120px;
+    }
+  }
+}
+
+}

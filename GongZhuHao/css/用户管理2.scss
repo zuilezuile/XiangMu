@@ -1,0 +1,104 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+}
+
+
+
+.con {
+
+  padding: 30px 80px 30px 80px;
+
+.hh{
+  bottom: 60px;
+  left: 241px;
+  width: 948px;
+  position: absolute;
+  .con2 {
+    position: absolute;
+    bottom: 722px;
+    width: 948px;
+    height: 77px;
+    background: #fff;
+    border-bottom: 1px solid #f3f3f3;
+    float: right;
+    span {
+      line-height: 77px;
+      margin-left: 30px;
+    }
+
+    button{
+      width: 100px;
+      height: 40px;
+      background: #FF6577;
+      border-radius:5px;
+      border: none;
+      color: #fff;
+      margin-left: 700px;
+    }
+
+  }
+  .tup {
+    width: 918px;
+    height: 692px;
+    float: right;
+    background: #fff;
+    margin-top: -722px;
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    .nnn{
+      margin-left: 15px;
+      width: 100px;
+      display: inline-block;
+      font-size: 14px;
+    }
+    input[type="text"]{
+      width: 300px;
+      height: 40px;
+      border: 1px solid #B5b5b5;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    input[type="checkbox"]{
+      margin-top: 10px;
+      margin-left: 30px;
+    }
+    .qx{
+      .aaa{
+        font-size: 12px;
+        margin-left: 116px;
+      }
+      span{
+        font-size: 12px;
+      }
+    }
+
+
+    .tq{
+      margin-left: 116px;
+      margin-top: 40px;
+      button:first-child{
+        width: 100px;
+        height: 40px;
+        background: #ff6677;
+        border-radius: 5px;
+        border: 1px solid #ff6677;
+        color: #fff;
+      }
+
+      button:last-child{
+        width: 100px;
+        height: 40px;
+        background: #fff;
+        border-radius: 5px;
+        border: 1px solid #b5b5b5;
+      }
+    }
+  }
+}
+
+}

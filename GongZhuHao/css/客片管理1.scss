@@ -1,0 +1,114 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+}
+
+.con{
+  padding: 30px 80px 30px 80px;
+  .hh{
+    bottom: 60px;
+    left: 241px;
+    width: 948px;
+    position: absolute;
+    .con2{
+      position: absolute;
+      bottom: 722px;
+      width: 948px;
+      height: 77px;
+      background: #fff;
+      border-bottom: 1px solid #f3f3f3;
+      float: right;
+      span{
+        line-height: 77px;
+        margin-left: 30px;
+      }
+      input{
+        width: 320px;
+        height: 30px;
+        border-radius: 5px;
+        outline: none;
+        margin-bottom: 10px;
+        border: 1px solid #f3f3f3;
+        margin-left: 460px;
+        padding-left: 10px;
+      }
+      label{
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+        border: 1px solid #f3f3f3;
+        display: inline-block;
+        line-height: 30px;
+        border-radius: 0 5px 5px 0;
+        margin-left: -10px;
+        background: #fff;
+        margin-top: 10px;
+        img{
+          margin-left: 6px;
+          margin-bottom: -5px;
+        }
+      }
+    }
+    .tup{
+      width: 918px;
+      height: 692px;
+      float: right;
+      background: #fff;
+      padding-top: 30px;
+      padding-right: 15px;
+      padding-left: 15px;
+      ul{
+        list-style-type: none;
+        li{
+          margin-bottom: 10px;
+          float: left;
+          margin-right: 15px;
+          margin-left:14px ;
+          width: 200px;
+          height: 210px;
+          border-bottom: 1px solid #B5b5b5;
+          .s2{
+            margin-left: 100px;
+            font-size: 14px;
+            color: red;
+          }
+          p{
+            font-size: 12px;
+            color: #696969;
+            margin-top: 10px;
+          }
+        }
+      }
+      .jiye{
+        margin-left: 560px;
+        margin-top: 600px;
+        span{
+          font-size: 14px;
+        }
+        select{
+          border-radius: 5px;
+
+        }
+        button{
+          background: #fff;
+          width: 20px;
+          height: 20px;
+          border-radius: 5px;
+          border: 1px solid #696969;
+        }
+        input{
+          border: 1px solid #696969;
+          width: 40px;
+          height: 20px;
+          border-radius:5px ;
+        }
+        lable{
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,62 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑"; }
+
+.con {
+  padding: 30px 80px 30px 80px; }
+  .con .hh {
+    bottom: 60px;
+    left: 241px;
+    width: 948px;
+    position: absolute; }
+    .con .hh .con2 {
+      position: absolute;
+      bottom: 692px;
+      width: 948px;
+      height: 107px;
+      background: #fff;
+      border-bottom: 1px solid #f3f3f3;
+      float: right; }
+      .con .hh .con2 span {
+        line-height: 77px;
+        margin-left: 30px; }
+      .con .hh .con2 button {
+        width: 100px;
+        height: 40px;
+        background: #FF6577;
+        border-radius: 5px;
+        border: none;
+        color: #fff;
+        margin-left: 700px; }
+      .con .hh .con2 ul {
+        list-style-type: none;
+        overflow: hidden;
+        margin-left: 30px; }
+        .con .hh .con2 ul li {
+          float: left;
+          font-size: 14px;
+          margin-right: 12px; }
+        .con .hh .con2 ul li:first-child {
+          border-bottom: 2px solid #ff6677;
+          padding-bottom: 10px; }
+    .con .hh .tup {
+      width: 918px;
+      height: 662px;
+      float: right;
+      background: #fff;
+      margin-top: -692px;
+      padding-top: 30px;
+      padding-right: 15px;
+      padding-left: 15px; }
+      .con .hh .tup table {
+        width: 900px;
+        height: 220px;
+        border: 1px solid #B5b5b5; }
+        .con .hh .tup table td {
+          border: 1px solid #B5b5b5;
+          font-size: 14px;
+          text-align: center; }
+
+/*# sourceMappingURL=%C9%CC%BC%D2%D7%F7%C6%B7.css.map */
